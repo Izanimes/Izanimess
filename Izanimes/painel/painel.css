@@ -1,0 +1,94 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    color:white;
+    background-color: black;
+}
+.containerEnvio{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(bg.jpg);
+}
+.form{
+    width: 600px;
+    padding:20px;
+    background-color:rgba(255,250,250,0.5);
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.capa_epi{
+    display:flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap:10px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.container_capaepi{
+    color:black;
+    max-width: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+.destino{
+    max-width: 70%;
+    overflow: hidden;
+}
+input{
+    border:1px solid #AD83DE;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    outline: none;
+}
+.label{
+    color:black;
+}
+.container{
+    color:black;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    gap :10px;
+}
+.categorias{
+    margin-top:15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+} 
+
+.btnSelect{
+    padding:5px;
+    height: 30px;
+    outline: none;
+    border:1px solid #AD83DE;
+}
+.btnSelectVideo{
+    padding:5px;
+    height: 30px;
+    outline: none;
+    border:1px solid #AD83DE;
+}
+.buttonEnviar{
+    background-color: white;
+    padding:5px;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    border:1px solid #AD83DE;
+}

@@ -1,0 +1,192 @@
+body{
+    background-image: url(fundo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.boxPopUp{
+    display:none;
+    position:absolute;
+    top:10px;
+    left:35%;
+    padding:10px;
+    width: 380px;
+    background-color: white;
+    height: auto;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    transition :top 15s;
+    z-index: 100000000000000;
+}
+
+.ativo{
+    display:block;
+    top:150px;
+}
+#closePopLogin{
+    font-size: 1.6em;
+    color:black;
+    float:right;
+    margin-bottom: 10px;
+}
+.boxForm input{
+   width: 99%;
+   margin-bottom:10px;
+   outline:none;
+   border:1px solid #BEC7D4;
+   padding:8px 0px;
+}
+.btnPopLogar{
+    background: #C1BED4;
+    width: 100%;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    padding:10px 5px;
+}
+
+.fix{
+    clear:both;
+}
+/*menu*/
+header{
+    display :flex;
+    align-items: center;
+    height: 70px;
+    justify-content: space-between;
+    background-color: black;
+}
+.h{
+    width: 100%;
+    background-color: black;
+}
+.menu{
+    display:flex;
+    align-items: center;
+    list-style:none;
+    padding:0px;
+    gap:.7rem;
+}
+.menu a{
+    display:block;
+    padding:.5rem;
+    color:white;
+    font-size: 1.2em;
+}
+#btnLogin{
+ background-color: #AD83DE;
+ border:none;
+ outline:none;
+ padding:5px 20px;
+ font-size:1.1em;
+ color:black;
+ border-radius: 5px;
+}
+
+#hamburguer{
+    display:none;
+}
+/*fim menu*/
+
+/*main*/
+*{
+    padding:0px;
+    margin:0px;
+}
+.container{
+    width: 65%;
+    margin:0 auto;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.secoes{
+    color:white;
+    display:flex;
+    align-items: flex-start;
+}
+.postagems{
+    background-color: black;
+    width: 70%;
+    max-width: 70%;
+}
+.aside{
+    width: 30%;
+    max-width: 30%;
+    background-color: grey;
+}
+.recentes , .episodios{
+    padding:10px;
+    margin-bottom: 10px;
+}
+.tittle{
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+/*adicionados recentemente*/
+.episodios{
+    overflow: hidden;
+    height: auto;
+}
+.epPostados{
+    box-sizing:border-box;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:10px;
+}
+.episodio{
+    position: relative;    
+    width: 275px;
+    height: 180px;
+}
+.prevEp{
+    border-radius: 15px;
+    height: 90%;
+    background-color: red;
+}
+.prevEp img {
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.name{
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+    width: 100%;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 10%;
+    font-size: 1.0em;
+}
+.clear{
+    clear: both;
+}
+.badge{
+    font-weight: 400;
+    font-size: 0.8em;
+    border-radius: 7px;
+    top:0px;
+    position: absolute;
+    top:5px;
+    left:5px;
+    padding: 5px 10px;
+    background-color: #8904B1;
+    display: inline-block;
+    color: #fff;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+  
+
+
+/**/

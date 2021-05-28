@@ -1,0 +1,53 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color: grey;
+    background-image: url(wp2595139.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.containerReg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    padding: 20px;
+    height: 400px;
+    background-color:rgba(255,250,250,0.7);
+}
+.containerReg .inpt{
+    width: 100%;
+}
+
+.containerReg .inpt input{
+    border:1px solid #AD83DE;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    outline: none;
+}
+.label{
+    color:#6615c2;
+}
+.containerBtns{
+    width: 100%;
+}
+
+.containerBtns button{
+    background-color: #b592dd;
+    height: 40px;
+    width: 100%;
+    outline: none;
+    border:1px solid #AD83DE;
+}
+
+

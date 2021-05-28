@@ -1,0 +1,274 @@
+/*geral*/
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    background-color: black;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 20px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #8904B1; 
+    border-radius: 30px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #AD83DE; 
+  }
+
+/* fim geral */
+/* popUp*/
+.boxPopUp{
+    display:none;
+    position:absolute;
+    top:10px;
+    left:35%;
+    padding:10px;
+    width: 380px;
+    background-color: white;
+    height: auto;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    transition :top 15s;
+    z-index: 100000000000000;
+}
+
+.ativo{
+    display:block;
+    top:150px;
+}
+#closePopLogin{
+    font-size: 1.6em;
+    color:black;
+    float:right;
+    margin-bottom: 10px;
+}
+.boxForm input{
+   width: 99%;
+   margin-bottom:10px;
+   outline:none;
+   border:1px solid #BEC7D4;
+   padding:8px 0px;
+}
+.btnPopLogar{
+    background: #C1BED4;
+    width: 100%;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    padding:10px 5px;
+}
+
+.fix{
+    clear:both;
+}
+
+
+/* fim popUp*/
+
+/*menu*/
+.headerContainer{
+    display :flex;
+    align-items: center;
+    height: 70px;
+    justify-content: space-between;
+    background-color: black;
+    width: 65%;
+    margin:0 auto;
+}
+
+.h{
+    width: 100%;
+    background-color: black;
+}
+.menu{
+    display:flex;
+    align-items: center;
+    list-style:none;
+    padding:0px;
+    gap:.7rem;
+}
+.menu a{
+    display:block;
+    padding:.5rem;
+    color:white;
+    font-size: 1.2em;
+}
+#btnLogin{
+ background-color: #AD83DE;
+ border:none;
+ outline:none;
+ padding:5px 20px;
+ font-size:1.1em;
+ color:black;
+ border-radius: 5px;
+}
+
+#hamburguer{
+    display:none;
+}
+
+/*fim menu*/
+
+/*main*/
+.container{
+    width: 70%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    overflow-y: hidden;
+}
+
+main{
+    background-color: black;
+}
+.secoes{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.containeranimes{
+    width: 70%;
+}
+.containeraside{
+    width: 30%;
+    background-color: green;
+}
+.perfilAnime{
+    height: 300px;
+    background-color: black;
+    padding:20px;
+    display: flex;
+    gap:10px;
+    color:white;
+}
+.foto{
+    max-width: 100%;
+    width: 35%;
+    background-color: black; 
+}
+.foto img{
+    width: 100%;
+    height: 100%;
+}
+.informacao{
+    max-width: 100%;
+    width: 100%;
+}
+
+.nameAnime{
+    color:grey;
+    text-align: center;
+    font-size: 1.9em;
+    margin-bottom: 15px;
+}
+
+.nota{
+    color:white;
+}
+.star{
+    font-size: 1.8em;
+    color:gold;
+}
+.numeroNota{
+    font-size: 0.8em;
+    color: white;
+}
+.temporadas{
+    margin-top:20px;
+    font-size:1.3em;
+    display: flex;
+    justify-content: space-between;
+    color:white;
+}
+.nGeral{
+    margin-top: 10px;
+    text-align: center;
+}
+.avaimdb{
+    font-size: 0.6em;
+    color:gold;
+}
+
+.sinopse{
+    color:white;
+    padding:0px 10px;
+    margin-top:20px;
+    font-size:1.0em;
+    color:white;
+    padding: 5px 10px;
+}
+.sinotittle{
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.episodios{
+    display: flex;
+    flex-wrap: wrap;
+    gap:5px;
+    padding:20px;
+}
+.episodio{
+    position: relative;
+    height: 110px;
+    width: calc(25% - 5px);
+}
+.episodio img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.badge{
+    font-weight: 400;
+    font-size: 0.8em;
+    border-radius: 7px;
+    top:0px;
+    position: absolute;
+    top:5px;
+    left:5px;
+    padding: 5px 10px;
+    background-color: #8904B1;
+    display: inline-block;
+    color: #fff;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.paginacao{
+    padding: 0px 20px;
+    margin-top:10px;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    gap:15px;
+}
+
+.numPage{
+    width: 30px;
+
+}
+.numPage button{
+    color:white;
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border:#AD83DE;
+    background-color: #8904B1;
+
+}

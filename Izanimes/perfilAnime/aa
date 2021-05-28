@@ -1,0 +1,606 @@
+ <main class = "container">
+        
+        <section class = "containerGeral">
+            
+            <section class = 'secoes'>
+                <section class = "containerAnimes">
+                    <article class ="info">
+                        <article class = "foto">
+                            <img src = "../imganimes/fd.png"/>
+                        </article>
+
+                        <article class ="informacao">
+                            <div class = "nameAnime">
+                                Kakegurui
+                            </div>
+                            <div class = "avaliacao">
+                               <section class = "secaoNota">
+                                    <article>
+                                        <span class = "nota">Avaliacoes:</span>
+                                        <i class=" star fas fa-star"></i>
+                                        <i class=" star fas fa-star"></i>
+                                        <i class=" star fas fa-star"></i>
+                                        <i class=" star fas fa-star"></i>
+                                        <i class=" star fas fa-star"></i>
+                                        <span class = "numeroNota">10</span>
+                                    </article>
+                                </section>
+
+                               <section class = "temporadas">
+                                    <article>
+                                        Temporadas
+                                        <div class = "nGeral">2</div>
+                                    </article>
+                                    <article>
+                                        Episodios
+                                        <div class = "nGeral">24</div>
+                                    </article>
+                                    <article>
+                                        IMDb
+                                        <div class = "nGeral">
+                                            7.2/10 <span class = "avaimdb">5.6k</span>
+                                        </div>
+                                    </article>
+                               </section>                              
+                            </div>
+                            <section class ="sinopse">
+                                <h1 class = "sinotittle">Sinopse</h1>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod fugit eveniet consectetur cupiditate culpa inventore eum commodi nisi at quia minima quibusdam accusamus id, nihil, recusandae ea dolorum modi sapiente?
+                            </section>
+                        </article>
+                    </article>
+                    <article class ="Episodios">
+                        <div class = "episodio">
+                            <div class = "badge">episodio 1</div>
+                            <img src = "../imganimes/cena8.jpg"/>
+                        </div> 
+
+                        <div class = "episodio">
+                            <div class = "badge">episodio 2</div>
+                            <img src = "../imganimes/cena8.jpg"/>
+                        </div> 
+
+                        <div class = "episodio">
+                            <div class = "badge">episodio 3</div>
+                            <img src = "../imganimes/cena8.jpg"/>
+                        </div> 
+
+                        <div class = "episodio">
+                            <div class = "badge">episodio 4</div>
+                            <img src = "../imganimes/cena8.jpg"/>
+                        </div> 
+
+                        <div class = "episodio">
+                            <div class = "badge">episodio 5</div>
+                            <img src = "../imganimes/cena8.jpg"/>
+                        </div>
+
+                        <div class = "episodio">
+                            <div class = "badge">episodio 6</div>
+                            <img src = "../imganimes/cena8.jpg"/>
+                        </div> 
+
+                        <div class = "episodio">
+                            <div class = "badge">episodio 7</div>
+                            <img src = "../imganimes/cena8.jpg"/>
+                        </div> 
+
+                        <div class = "episodio">
+                            <div class = "badge">episodio 8</div>
+                            <img src = "../imganimes/cena8.jpg"/>
+                        </div> 
+
+                        <div class = "episodio">
+                            <div class = "badge">episodio 9</div>
+                            <img src = "../imganimes/cena8.jpg"/>
+                        </div> 
+
+                        <div class = "episodio">
+                            <div class = "badge">episodio 10</div>
+                            <img src = "../imganimes/cena8.jpg"/>
+                        </div> 
+
+                        <div class = "episodio">
+                            <div class = "badge">episodio 11</div>
+                            <img src = "../imganimes/cena8.jpg"/>
+                        </div> 
+
+                        <div class = "episodio">
+                            <div class = "badge">episodio 12</div>
+                            <img src = "../imganimes/cena8.jpg"/>
+                        </div> 
+
+                        <div class = "episodio">
+                            <div class = "badge">episodio 13</div>
+                            <img src = "../imganimes/cena8.jpg"/>
+                        </div> 
+
+                        <div class = "episodio">
+                            <div class = "badge">episodio 14</div>
+                            <img src = "../imganimes/cena8.jpg"/>
+                        </div>
+
+                        <div class = "episodio">
+                            <div class = "badge">episodio 15</div>
+                            <img src = "../imganimes/cena8.jpg"/>
+                        </div>  
+
+                        <div class = "episodio">
+                            <div class = "badge">episodio 16</div>
+                            <img src = "../imganimes/cena8.jpg"/>
+                        </div> 
+
+                        <div class = "episodio">
+                            <div class = "badge">episodio 17</div>
+                            <img src = "../imganimes/cena8.jpg"/>
+                        </div> 
+
+                        <div class = "episodio">
+                            <div class = "badge">episodio 18</div>
+                            <img src = "../imganimes/cena8.jpg"/>
+                        </div> 
+
+                        <div class = "episodio">
+                            <div class = "badge">episodio 19</div>
+                            <img src = "../imganimes/cena8.jpg"/>
+                        </div> 
+
+                        <div class = "episodio">
+                            <div class = "badge">episodio 20</div>
+                            <img src = "../imganimes/cena8.jpg"/>
+                        </div> 
+
+                        <div class = "episodio">
+                            <div class = "badge">episodio 21</div>
+                            <img src = "../imganimes/cena8.jpg"/>
+                        </div> 
+
+                        <div class = "episodio">
+                            <div class = "badge">episodio 22</div>
+                            <img src = "../imganimes/cena8.jpg"/>
+                        </div> 
+
+                        <div class = "episodio">
+                            <div class = "badge">episodio 23</div>
+                            <img src = "../imganimes/cena8.jpg"/>
+                        </div>
+
+                        <div class = "episodio">
+                            <div class = "badge">episodio </div>
+                            <img src = "../imganimes/cena8.jpg"/>
+                        </div> 
+                    </article>
+                </section>
+
+                <section class = "aside">
+                    b
+                </section>
+            </section>
+           
+        </section>
+    </main>
+
+
+
+
+
+
+
+
+    *{
+    padding:0px;
+    margin:0px;
+}
+body{
+    background-color: black;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 20px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #8904B1; 
+    border-radius: 30px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #AD83DE; 
+  }
+
+/* fim geral */
+/* popUp*/
+.boxPopUp{
+    display:none;
+    position:absolute;
+    top:10px;
+    left:35%;
+    padding:10px;
+    width: 380px;
+    background-color: white;
+    height: auto;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    transition :top 15s;
+    z-index: 100000000000000;
+}
+
+.ativo{
+    display:block;
+    top:150px;
+}
+#closePopLogin{
+    font-size: 1.6em;
+    color:black;
+    float:right;
+    margin-bottom: 10px;
+}
+.boxForm input{
+   width: 99%;
+   margin-bottom:10px;
+   outline:none;
+   border:1px solid #BEC7D4;
+   padding:8px 0px;
+}
+.btnPopLogar{
+    background: #C1BED4;
+    width: 100%;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    padding:10px 5px;
+}
+
+.fix{
+    clear:both;
+}
+
+
+/* fim popUp*/
+
+/*menu*/
+.headerContainer{
+    display :flex;
+    align-items: center;
+    height: 70px;
+    justify-content: space-between;
+    background-color: black;
+    width: 65%;
+    margin:0 auto;
+}
+
+.h{
+    width: 100%;
+    background-color: black;
+}
+.menu{
+    display:flex;
+    align-items: center;
+    list-style:none;
+    padding:0px;
+    gap:.7rem;
+}
+.menu a{
+    display:block;
+    padding:.5rem;
+    color:white;
+    font-size: 1.2em;
+}
+#btnLogin{
+ background-color: #AD83DE;
+ border:none;
+ outline:none;
+ padding:5px 20px;
+ font-size:1.1em;
+ color:black;
+ border-radius: 5px;
+}
+
+#hamburguer{
+    display:none;
+}
+
+/*fim menu*/
+
+/*main*/
+.container{
+    width: 70%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    overflow-y: hidden;
+}
+
+.containerGeral{
+    background-color: black;
+    height: calc(100vh - 70px);
+}
+
+.secoes{
+    align-items: flex-start;
+    display: flex;
+}
+.containerAnimes{
+    width: 70%;
+    background-color: black;
+}
+.info{
+    height: 300px;
+    background-color: black;
+    padding:20px;
+    display: flex;
+    gap:10px;
+}
+.foto{
+    width: 30%;
+    background-color: blue; 
+}
+.foto img{
+    width: 100%;
+    height: 100%;
+}
+.informacao{
+    width: 70%;
+    background-color: black;
+}
+.Episodios{
+    display: flex;
+    flex-wrap: wrap;
+    gap:5px;
+    padding:20px;
+    max-height: calc(100vh - 70px - 390px);
+    overflow: auto;
+}
+.episodio{
+    position: relative;
+    height: 110px;
+    width: calc(25% - 5px);
+    background-color: blue;
+}
+.episodio img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.badge{
+    font-weight: 400;
+    font-size: 0.8em;
+    border-radius: 7px;
+    top:0px;
+    position: absolute;
+    top:5px;
+    left:5px;
+    padding: 5px 10px;
+    background-color: #8904B1;
+    display: inline-block;
+    color: #fff;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+.aside{
+    width:30%;
+    background-color: green;
+}
+
+.nameAnime{
+    color:grey;
+    text-align: center;
+    font-size: 1.9em;
+    margin-bottom: 15px;
+}
+
+.nota{
+    color:white;
+}
+.star{
+    font-size: 1.8em;
+    color:gold;
+}
+.numeroNota{
+    font-size: 0.8em;
+    color: white;
+}
+.temporadas{
+    margin-top:20px;
+    font-size:1.3em;
+    display: flex;
+    justify-content: space-between;
+    color:white;
+}
+.nGeral{
+    margin-top: 10px;
+    text-align: center;
+}
+.avaimdb{
+    font-size: 0.6em;
+    color:gold;
+}
+
+.sinopse{
+    color:white;
+    padding:0px 10px;
+    margin-top:20px;
+    font-size:1.0em;
+    color:white;
+    padding: 5px 10px;
+}
+.sinotittle{
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+
+
+/* episodios */
+
+
+
+/*fim main
+
+/* mobile */
+@media (max-width: 767.98px) {
+    .headerContainer{
+        display :flex;
+        align-items: center;
+        height: 70px;
+        justify-content: space-between;
+        background-color: black;
+        width: 100%;
+        margin:0 auto;
+    }
+    
+    .container{
+        width: 100%;
+        display: flex;
+        width: 100%;
+        overflow-y: hidden;
+        height: 100%;
+    }
+    .ft1{
+       display: none;
+    }
+    .ft2{
+        display: flex;
+    }
+    .containerGeral{
+        grid-area: perfilAnime;
+        background-color: black;
+        height: auto!important;
+        height: 100%;
+    }
+    
+    .secoes{
+        align-items: flex-start;
+        display: flex;
+        height: 100%;
+    }
+    .containerAnimes{
+        width: 100%;
+        background-color: black;
+    }
+    .info{
+        height:400px;
+        background-color: black;
+        padding:0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:2px;
+    }
+    .foto{
+        width: 200px;
+        height: 250px;
+        background-color: blue; 
+    }
+    .foto img{
+        width: 100%;
+        height: 100%;
+    }
+    .informacao{
+        width: 100%;
+        background-color: black;
+        height: 200px;
+    }
+   
+    .Episodios{
+        display: flex;
+        flex-wrap: wrap;
+        gap:5px;
+        padding:0px;
+        overflow: auto;
+        max-height: 3000px;
+    }
+    .episodio{
+        width: 49%!important;
+        position: relative;
+        height: 110px;
+        background-color: blue;
+    }
+    .episodio img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .badge{
+        font-weight: 400;
+        font-size: 0.8em;
+        border-radius: 7px;
+        top:0px;
+        position: absolute;
+        top:5px;
+        left:5px;
+        padding: 5px 10px;
+        background-color: #8904B1;
+        display: inline-block;
+        color: #fff;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    
+
+    .nameAnime{
+        color:grey;
+        text-align: center;
+        font-size: 1.9em;
+        margin-bottom: 15px;
+    }
+    
+    .nota{
+        color:white;
+    }
+    .star{
+        font-size: 1.5em;
+        color:gold;
+    }
+    .numeroNota{
+        font-size: 0.8em;
+        color: white;
+    }
+    .temporadas{
+        padding:0px 10px;
+        margin-top:20px;
+        font-size:0.9em;
+        display: flex;
+        justify-content: space-between;
+        border:1px solid grey;
+        color:white;
+    }
+    .nGeral{
+        margin-top: 10px;
+        text-align: center;
+    }
+    .avaimdb{
+        font-size: 0.6em;
+        color:gold;
+    }
+
+    .sinopse{
+        color:white;
+        padding:0px 10px;
+        margin-top:20px;
+        font-size:0.9em;
+        display: flex;
+        justify-content: space-between;
+        border:1px solid grey;
+        color:white;
+    }
+    
+    .aside{
+        width:30%;
+        background-color: green;
+    }
+    
+
+
+}
